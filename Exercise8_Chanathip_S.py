@@ -13,22 +13,25 @@ if usernameInput == "min" and passwordInput == "2":
     if userSelected == 1:
         amount = int(input("How many? : "))
         price = 20 * amount
+        print("Total :", price, "THB")
     elif userSelected == 2:
         amount = int(input("How many? : "))
         price = 15 * amount
+        print("Total :", price, "THB")
     elif userSelected == 3:
         amount = int(input("How many? : "))
         price = 60 * amount
+        print("Total :", price, "THB")
     elif userSelected == 4:
         amount = int(input("How many? : "))
         price = 5 * amount
+        print("Total :", price, "THB")
     elif userSelected == 5:
         amount = int(input("How many? : "))
         price = 7 * amount
+        print("Total :", price, "THB")
     elif userSelected < 1 or userSelected > 5:
         x = 6
         print("!Error!")
 else:
     print("---Login Failed---")
-if userSelected == 1 or userSelected == 2 or userSelected == 3 or userSelected == 4 or userSelected == 5:
-    print("Total :",price,"THB")
