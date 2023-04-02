@@ -31,7 +31,6 @@ if usernameInput == "min" and passwordInput == "2":
         price = 7 * amount
         print("Total :", price, "THB")
     elif userSelected < 1 or userSelected > 5:
-        x = 6
         print("!Error!")
 else:
     print("---Login Failed---")
